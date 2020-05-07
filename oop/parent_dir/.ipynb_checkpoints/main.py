@@ -1,1 +1,4 @@
-import 
+import ecommerce.products
+a = ecommerce.products.Product()
+
+
