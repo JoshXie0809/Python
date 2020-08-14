@@ -4,7 +4,7 @@ import math
 class Point:
     """Represents a point in two-dimensional geometric coordinates"""
 
-    def __init__(self, xPosition: float, yPosition: float):
+    def __init__(self, xPosition, yPosition):
         """
         Initialize the position of a new point. The x and y
         coordinates can be specified. If they are not, the
@@ -13,7 +13,7 @@ class Point:
         self.x = xPosition
         self.y = yPosition
 
-    def move(self, xPosition: float, yPosition: float):
+    def move(self, xPosition, yPosition):
         """Move the point to a new location in 2D space."""
         self.x = xPosition
         self.y = yPosition
